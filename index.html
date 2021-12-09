@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercices2</title>
+  <link rel="stylesheet" href="exe2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="img">
+      <img src="back.jpg" alt="Cle De Maison">
+    </div>
+    <div class="Form">
+      <h1>Formulaires</h1>
+      <div class="ville">
+        <input placeholder="Ville" type="text" list="types">
+        <datalist id="types">
+          <option value="Laayoune">
+          <option value="Dakhla">
+          <option value="Tantane">
+          <option value="Guelmim">
+          <option value="Agadir">
+          <option value="Essaouira">
+          <option value="Casablanca">
+          <option value="Marrakech">
+          <option value="Rabat">
+          <option value="Tanger">
+      </datalist>
+      </div>
+
+      <div class="prix">
+        <input class="inpt" type="text" placeholder="Min Prix" >
+        <input class="inpt" type="text" placeholder="Max Prix">
+      </div>
+
+      <div class="nbr_chombres">
+        <input type="text" placeholder="Nombres Chambres">
+      </div>
+
+      <div class="rayon">
+        <select>
+          <option disabled selected>Select Rayoon Rechrche : </option>
+          <option>Souplex</option>
+          <option>Duplex</option>
+          <option>Triplex</option>
+          <option>Studio</option>
+        </select>
+      </div>
+
+      <div class="check">
+        <input type="checkbox">
+        <label>Inclure Les Proprietes Vendus</label>
+      </div>
+      <div class="btn">
+        <button>Search</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
